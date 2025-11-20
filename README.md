@@ -110,10 +110,10 @@ Requirements
 
 - Version requirements (C++17, Python 3.10…)
 
-Running the program
-In C++
-g++ main.cpp -o solution -O2
-./solution
+    Running the program
+    In C++
+    g++ main.cpp -o solution -O2
+    ./solution6
 
 In Python
 python3 main.py
@@ -139,13 +139,13 @@ ________________________________________
 
 - Example structure:
 
-project/
- ├── src/
- │    └── main.cpp
- ├── tests/
- │    └── input1.txt
- ├── README.md
- └── LICENSE
+``project/``
+``├── src/``
+``│    └── main.cpp``
+``├── tests/``
+``│    └── input1.txt``
+``├── README.md``
+``└── LICENSE``
 
 ________________________________________
 🧪 Testing
