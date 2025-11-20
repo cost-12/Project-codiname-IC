@@ -137,15 +137,15 @@ Example 2
 ________________________________________
 📁 Project Structure
 
-- Example structure:
+- Example structure::
 
-``project/``
-``├── src/``
-``│    └── main.cpp``
-``├── tests/``
-``│    └── input1.txt``
-``├── README.md``
-``└── LICENSE``
+    ``project/``
+    ``├── src/``
+    ``│    └── main.cpp``
+    ``├── tests/``
+    ``│    └── input1.txt``
+    ``├── README.md``
+    ``└── LICENSE``
 
 ________________________________________
 🧪 Testing
