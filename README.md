@@ -1,4 +1,4 @@
-📘 Project Title — OBI Programming Project
+## 📘 Project Title — OBI Programming Project
 
 A concise description of the project.
 Example: “Solution for the OBI problem ‘Nome do Problema’, implemented in C++/Python.”
@@ -139,13 +139,14 @@ ________________________________________
 
 - Example structure:
 
-project
- ├── src
+project/
+ ├── src/
  │    └── main.cpp
- ├── tests
+ ├── tests/
  │    └── input1.txt
  ├── README.md
  └── LICENSE
+
 ________________________________________
 🧪 Testing
 
