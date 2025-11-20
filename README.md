@@ -137,12 +137,12 @@ Example 2
 ________________________________________
 📁 Project Structure
 
-Example structure:
+- Example structure:
 
-project/
- ├── src/
+project
+ ├── src
  │    └── main.cpp
- ├── tests/
+ ├── tests
  │    └── input1.txt
  ├── README.md
  └── LICENSE
