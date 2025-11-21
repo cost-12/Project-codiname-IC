@@ -3,7 +3,7 @@
 A concise description of the project.
 Example: “Solution for the OBI problem ‘Nome do Problema’, implemented in C++/Python.”
 ______________________________________
-📑 Table of Contents
+## 📑 Table of Contents
 
 - [About the Project]()
 
@@ -31,15 +31,16 @@ ______________________________________
 
 - [License]()
 _______________________________________
-📘 About the Project
+## 📘 About the Project
 
 Brief explanation of what this repository contains.
 
 Example:
 
-This repository contains the source code and explanation for solving the OBI problem “Nome do Problema” (year X, phase Y, level Z).
+    This repository contains the source code and explanation for solving the OBI problem “Nome do Problema” (year X, phase Y, level Z).
+______________________________________
 
-📝 Problem Description
+## 📝 Problem Description
 
 Summarize the problem as described in the OBI statement.
 
@@ -51,7 +52,7 @@ Summarize the problem as described in the OBI statement.
 
 You may also link to the official PDF if allowed.
 _______________________________________
-🏅 OBI Context
+## 🏅 OBI Context
 
 Add contextual information:
 
@@ -65,7 +66,7 @@ Add contextual information:
 
 - Key topics covered (e.g., sorting, DP, graph, simulation)
 _______________________________________
-🔍 Approach & Solution
+## 🔍 Approach & Solution
 
 Explain your strategy to solve the problem:
 
@@ -75,7 +76,7 @@ Explain your strategy to solve the problem:
 
 - Alternative solutions (if relevant)
 _______________________________________
-📐 Algorithm Explanation
+## 📐 Algorithm Explanation
 
 A more detailed section:
 
@@ -92,17 +93,18 @@ Example snippet:
 3. Apply greedy rule…
 4. Output result
 _______________________________________
-⏱️ Complexity Analysis
+## ⏱️ Complexity Analysis
 
 State time and memory complexity:
 
+```time
 Time Complexity: O(N log N)
 Memory Usage: O(N)
-
+```
 
 If needed, explain why this fits the constraints.
 _______________________________________
-▶️ How to Run
+## ▶️ How to Run
 
 Requirements
 
@@ -110,56 +112,62 @@ Requirements
 
 - Version requirements (C++17, Python 3.10…)
 
-    Running the program
-    In C++
+### Running the program
+    
+- In C++
+    ```C
     g++ main.cpp -o solution -O2
     ./solution6
-
-In Python
-python3 main.py
+    ```
+- In Python
+    ```P
+    python3 main.py
+    ```
 _______________________________________
-📥 Input & Output Examples
-Example 1
+## 📥 Input & Output Examples
+
+- Example 1
 
 Input:
-
+```I
 5
 1 2 3 4 5
-
-
+```
 Output:
-
+```O
 15
-
-Example 2
+```
+- Example 2
 
 (... as needed …)
 ________________________________________
-📁 Project Structure
+## 📁 Project Structure
 
-- Example structure::
+- Example structure:
 
-    ``project/``
-    ``├── src/``
-    ``│    └── main.cpp``
-    ``├── tests/``
-    ``│    └── input1.txt``
-    ``├── README.md``
-    ``└── LICENSE``
+```repo
+project/
+ ├── src/
+ │    └── main.cpp
+ ├── tests/
+ │    └── input1.txt
+ ├── README.md
+ └── LICENSE
+```
 
 ________________________________________
-🧪 Testing
+## 🧪 Testing
 
 Explain how to test the solution manually or automatically.
 
 Example:
-
+```exp
 ./solution < tests/input1.txt
-
+```
 
 If you include unit tests, document them here.
 ________________________________________
-⚠️ Common Pitfalls
+## ⚠️ Common Pitfalls
 
 (Optional) Mention errors competitors often make:
 
@@ -171,7 +179,7 @@ ________________________________________
 
 - Missing edge cases
 ________________________________________
-📚 References
+## 📚 References
 
 - Official OBI website
 
@@ -179,6 +187,6 @@ ________________________________________
 
 - Algorithms used (e.g., BFS, Heap Sorting…)
 ________________________________________
-📄 License
+## 📄 License
 
 MIT, GPL, or whatever license you prefer.
