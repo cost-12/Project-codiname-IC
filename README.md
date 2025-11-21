@@ -37,19 +37,12 @@ ______________________________________
 
 ## 📝 Problem Description
 
-Summarize the problem as described in the OBI statement.
+what will be described?
 
-- What is the task?
+    - The task
+    - Inputs/Outputs
+    - Constraints
 
-- What are the inputs/outputs?
-
-- What constraints does it impose?
-```bash
-PS C:\Users\f1aud\Project-codiname-IC> git pull
-error: You have not concluded your merge (MERGE_HEAD exists).
-hint: Please, commit your changes before merging.
-fatal: Exiting because of unfinished merge.
-```
 ---
 ## Problem 1 Computer
 
@@ -149,7 +142,7 @@ For every instruction of type `IMPRIME I`, the program must output a line contai
 * Adding validation for instruction formats.
 * Supporting batch execution and benchmarking.
 
-[link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
+[Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
 ---
 _______________________________________
 ## Problem 2 Chess
@@ -187,8 +180,8 @@ Your program must output a single integer representing the number of valid start
 * `2 ≤ N ≤ 1000`
 * `0 ≤ T ≤ 2`
 
-[link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/xadrez/) the official Site.
-_______________________________________
+[Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/xadrez/) the official Site.
+---
 _______________________________________
 ## 🏅 OBI Context
 
@@ -202,14 +195,29 @@ Add contextual information:
 _______________________________________
 ## 🔍 Approach & Solution
 
-Explain your strategy to solve the problem:
+### Computer project:
+    Percorrer a memória diretamente, atualizando posição por posição, simulando passo a passo cada instrução exatamente como descrita.
 
-- Summary of thought process
+    FRENTE i V: soma V, V-1, V-2... avançando para a direita, até o valor acabar ou atingir o fim da memória.
 
-- Why this approach works
+    TRÁS i V: soma V, V-1, V-2... avançando para a esquerda, até o valor acabar ou atingir o início da memória.
 
-- Alternative solutions (if relevant)
+    IMPRIME i: simplesmente exibe o valor atual armazenado na posição i.
 
+    - Ou seja:
+        Sem atalhos
+
+        Sem estruturas avançadas
+
+        Sem otimizações
+
+    ✔ Características:
+    
+    - Fácil de entender
+    - Fácil de implementar
+    - Porém lenta para valores muito grandes
+
+### Chess project:
 
 _______________________________________
 ## 📐 Algorithm Explanation
@@ -252,12 +260,12 @@ Requirements
     
 - In Python
     ```P
-    C:/Users/$user/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$user/Project-codiname-IC/project-computer/src/main.py
+    C:/Users/$USER/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$USER/Project-codiname-IC/project-computer/src/main.py
     ```
 _______________________________________
 ## 📥 Input & Output Examples
 
-- Example 1; Computer
+- Example Computer:
 
 Input:
 ```I
@@ -278,7 +286,7 @@ Output:
 2
 11
 ```
-- Example 2; Chess
+- Example Chess:
 
 Input:
 ```I
@@ -349,12 +357,13 @@ ________________________________________
 
 - Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
 ________________________________________
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)                                       | `![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)`                                         |
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)                                       |
 ________________________________________
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)                  | `![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)`                  |
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)                  |
 ________________________________________
 ## 📄 License
 
 - [Unlicense license](https://unlicense.org)
+LICENSE
 ---
-[(Back to top)](#table-of-contents)
+[(Back to top)](#-table-of-contents)
