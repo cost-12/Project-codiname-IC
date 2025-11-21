@@ -113,8 +113,9 @@ git push origin nome-da-feature
 
 ## 🔀 6. Abrir um Pull Request
 
+Opicional:
 - Crie uma nova branch com git checkout -b <nome-da-branch> para trabalhar em uma nova funcionalidade ou correção sem afetar a branch principal. 
-
+---
 - Vá até o GitHub.
     Abra um Pull Request da sua branch → main.
 

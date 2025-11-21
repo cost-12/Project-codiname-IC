@@ -149,9 +149,9 @@ For every instruction of type `IMPRIME I`, the program must output a line contai
 * Adding validation for instruction formats.
 * Supporting batch execution and benchmarking.
 
-You may also [link] to the official Site if allowed.
+[link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
 ---
-
+_______________________________________
 ## Problem 2 Chess
 
 ### Chess960 Simplified Variant — Valid Starting Positions
@@ -187,9 +187,8 @@ Your program must output a single integer representing the number of valid start
 * `2 ≤ N ≤ 1000`
 * `0 ≤ T ≤ 2`
 
----
-
-You may also [link] to the official Site if allowed.
+[link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/xadrez/) the official Site.
+_______________________________________
 _______________________________________
 ## 🏅 OBI Context
 
@@ -356,7 +355,6 @@ ________________________________________
 ________________________________________
 ## 📄 License
 
-MIT, GPL, or whatever license you prefer.
-<https://unlicense.org>
-
+- [Unlicense license](https://unlicense.org)
+---
 [(Back to top)](#table-of-contents)
