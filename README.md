@@ -193,7 +193,7 @@ Add contextual information:
 
 - Key topics covered (Ordering, dynamic programming, simulation)
 _______________________________________
-## 🔍 Approach & Solution
+## 🔍 Abordagem e Solução
 
 ### Computer project:
     Percorrer a memória diretamente, atualizando posição por posição, simulando passo a passo cada instrução exatamente como descrita.
@@ -324,35 +324,7 @@ Algoritmo ContarPosicoes
     Escrever RESULTADO
 FimAlgoritmo
 ```
-
-_______________________________________
-## 📊 Complexity Analysis
-
-This happens when you're stuck in an unfinished merge state, which prevents you from doing either git pull or git push.
-
-### Computer logic
-
-The implementation follows a direct simulation approach.
-Each instruction updates memory values position by position, without optimizations.
-```bash
-FRENTE (type 1): runs a decreasing loop from V to 1 → O(V)
-
-TRÁS (type 2): also runs a decreasing loop from V to 1 → O(V)
-
-IMPRIME (type 3): constant-time access → O(1)
-
-Overall Complexity
-
-The total time depends on the sum of all V values:
-
-O( Σ V )
-
-Worst Case
-
-With up to 200,000 instructions and V up to 200,000:
-
-O(200,000 × 200,000)  ≈ 4 × 10¹⁰ operations
-```
+---
 _______________________________________
 ## ▶️ How to Run
 
