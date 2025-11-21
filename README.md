@@ -142,7 +142,7 @@ For every instruction of type `IMPRIME I`, the program must output a line contai
 * Adding validation for instruction formats.
 * Supporting batch execution and benchmarking.
 
-[Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
+#### [Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
 ---
 _______________________________________
 # Problem 2 Chess
@@ -180,7 +180,7 @@ Your program must output a single integer representing the number of valid start
 * `2 ≤ N ≤ 1000`
 * `0 ≤ T ≤ 2`
 
-[Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/xadrez/) the official Site.
+#### [Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/xadrez/) the official Site.
 ---
 _______________________________________
 ## 🏅 OBI Context
@@ -328,6 +328,8 @@ FimAlgoritmo
 _______________________________________
 ## 📊 Complexity Analysis
 
+This happens when you're stuck in an unfinished merge state, which prevents you from doing either git pull or git push.
+
 ### Computer logic
 
 The implementation follows a direct simulation approach.
@@ -445,7 +447,7 @@ C:\Users\$USER\Project-codiname-IC> git push To https://github.com/cost-12/Proje
 ```
     This happens when you're stuck in an unfinished merge state, which prevents you from doing either git pull or git push
 
-- Solution
+### Solution
 
 ✅ Passo 1 — Verificar o estado atual
 ```bash
@@ -468,7 +470,7 @@ $ git commit -m "Conclui merge pendente"
 This completes the incomplete merge.
 ___
 
-✅ Passo 3 — Agora sim, sincronizar com o remoto
+✅ Passo 3 — Agora sim, sincronizar com o servidor
 ```bash
 # Após concluir o merge:
 
