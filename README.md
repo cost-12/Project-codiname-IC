@@ -219,7 +219,7 @@ _______________________________________
 
 ### Chess project:
 
-    
+
 _______________________________________
 ## 📐 Algorithm Explanation
 
@@ -227,27 +227,6 @@ A more detailed section:
 
 - Pseudocode
 
-- Step-by-step description
-
-- Important edge cases considered
-
-Example snippet:
-
-1. Read N
-2. For each value…
-3. Apply greedy rule…
-4. Output result
-_______________________________________
-## ⏱️ Complexity Analysis
-
-State time and memory complexity:
-
-```time
-Time Complexity: O(N log N)
-Memory Usage: O(N)
-```
-
-If needed, explain why this fits the constraints.
 _______________________________________
 ## ▶️ How to Run
 
