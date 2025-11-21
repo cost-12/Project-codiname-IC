@@ -44,9 +44,14 @@ Summarize the problem as described in the OBI statement.
 - What are the inputs/outputs?
 
 - What constraints does it impose?
+```bash
+PS C:\Users\f1aud\Project-codiname-IC> git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+```
 ---
-- Problem 1
-## Computer
+## Problem 1 Computer
 
 ### OBI Memory Instructions Simulator
 
@@ -144,12 +149,10 @@ For every instruction of type `IMPRIME I`, the program must output a line contai
 * Adding validation for instruction formats.
 * Supporting batch execution and benchmarking.
 
+You may also [link] to the official Site if allowed.
 ---
 
-You may also [link] to the official Site if allowed.
-
-- Problem 2
-## Chess
+## Problem 2 Chess
 
 ### Chess960 Simplified Variant — Valid Starting Positions
 
@@ -255,7 +258,7 @@ Requirements
 _______________________________________
 ## 📥 Input & Output Examples
 
-- Example 1 problem (Computer)
+- Example 1; Computer
 
 Input:
 ```I
@@ -276,11 +279,11 @@ Output:
 2
 11
 ```
-- Example 2 problem (Chess)
+- Example 2; Chess
 
 Input:
 ```I
-8 #Posição da casa 1#Peç; Torre
+8 #Posição da casa 1#Nº da Peça; Torre
 ```
 Output:
 ``` O
@@ -293,7 +296,7 @@ ________________________________________
 
 ```repo
 project/
- ├── documentation/
+ ├── docs/
  │    └── info.rst
  ├── src/
  │    └── main.py
@@ -312,36 +315,36 @@ Explain how to test the solution manually or automatically.
 
 Example:
 ```exp
-./solution < test/input1.txt
+./test/input1.txt
 ```
 ________________________________________
 ## 📘 Git Workflow
 
-    - Clone repository
-    """clone
-    git clone https://github.com/cost-12/Project-codiname-IC.git
-    cd Project-codiname-IC
-    """
+- Clone repository
+"""clone
+git clone https://github.com/cost-12/Project-codiname-IC.git
+cd Project-codiname-IC
+"""
 
-    - Inicicialized repository
-    """init
-    git init
-    """
+- Inicicialized repository
+"""init
+git init
+"""
 
-    -  Adicioned informations
-    """add
-    git add .
-    """
+-  Adicioned informations
+"""add
+git add .
+"""
 
-    - Commit informations
-    """commit
-    git commit -m "version"
-    """
+- Commit informations
+"""commit
+git commit -m "version"
+"""
 
-    - Upload informations commit
-    """push
-    git push -u origin main(first time)
-    """
+- Upload informations commit
+"""push
+git push -u origin main(first time)
+"""
 
 
 - Wrong loop boundaries
