@@ -266,7 +266,7 @@ _______________________________________
 
 The implementation follows a direct simulation approach.
 Each instruction updates memory values position by position, without optimizations.
-
+```bash
 FRENTE (type 1): runs a decreasing loop from V to 1 → O(V)
 
 TRÁS (type 2): also runs a decreasing loop from V to 1 → O(V)
@@ -284,6 +284,7 @@ Worst Case
 With up to 200,000 instructions and V up to 200,000:
 
 O(200,000 × 200,000)  ≈ 4 × 10¹⁰ operations
+```
 _______________________________________
 ## ▶️ How to Run
 
@@ -401,9 +402,8 @@ ________________________________________
 
 - Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
 ________________________________________
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)                                       |
-________________________________________
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)                  |
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ________________________________________
 ## 📄 License
 
