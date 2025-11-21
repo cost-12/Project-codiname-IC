@@ -1,0 +1,10 @@
+    """
+    Executa instruções de modificação incremental em uma memória linear.
+
+    Tipos de instrução:
+        1 pos valor  -> FRENTE
+        2 pos valor  -> TRÁS
+        3 pos        -> IMPRIME
+    """
+
+    
