@@ -219,6 +219,38 @@ _______________________________________
 
 ### Chess project:
 
+    O programa calcula quantas posições iniciais válidas existem em um tabuleiro de dimensão N contendo:
+
+    ```bash
+    1 rei
+
+    0, 1 ou 2 torres
+    ```
+    - o restante preenchido com peões
+
+    A escolha da fórmula depende apenas do número de torres T, sem usar loops ou simulações.
+
+    - Regras usadas
+
+    T = 0 → o rei pode ocupar qualquer posição
+    resultado = N
+
+    T = 1 → escolher posições distintas para rei e torre
+    resultado = N * (N - 1)
+
+    T = 2 → rei deve ficar entre as duas torres
+    Fórmula combinatória:
+    resultado = N * (N - 1) * (N - 2) / 6
+
+    ✔ Características
+
+    - Sem loops
+
+    - Sem gerar tabuleiros
+
+    - Uso direto de fórmulas combinatórias
+
+    - Execução instantânea mesmo para N = 1000
 
 _______________________________________
 ## 📐 Algorithm Explanation
