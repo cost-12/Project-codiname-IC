@@ -302,6 +302,9 @@ Requirements
 ### Running the program Chess
 
 - In Python
+   ```p
+    C:\Users\$USER\Project-codiname-IC> & C:/Users/$USER/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$USER/Project-codiname-IC/project-Xadrez/src/main.py
+    ```
 
 _______________________________________
 ## 📥 Input & Output Examples
