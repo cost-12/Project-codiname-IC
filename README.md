@@ -44,7 +44,7 @@ what will be described?
     - Constraints
 
 ---
-## Problem 1 Computer
+# Problem 1 Computer
 
 ### OBI Memory Instructions Simulator
 
@@ -145,7 +145,7 @@ For every instruction of type `IMPRIME I`, the program must output a line contai
 [Link](https://olimpiada.ic.unicamp.br/pratique/pu/2019/f3/computador/) the official Site.
 ---
 _______________________________________
-## Problem 2 Chess
+# Problem 2 Chess
 
 ### Chess960 Simplified Variant — Valid Starting Positions
 
@@ -219,6 +219,7 @@ _______________________________________
 
 ### Chess project:
 
+    
 _______________________________________
 ## 📐 Algorithm Explanation
 
@@ -256,12 +257,16 @@ Requirements
 
 - Version requirements (Python 3.10…)
 
-### Running the program
+### Running the program Computer
     
 - In Python
     ```P
     C:/Users/$USER/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$USER/Project-codiname-IC/project-computer/src/main.py
     ```
+### Running the program Chess
+
+- In Python
+
 _______________________________________
 ## 📥 Input & Output Examples
 
