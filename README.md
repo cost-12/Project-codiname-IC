@@ -257,7 +257,73 @@ _______________________________________
 
 A more detailed section:
 
-- Pseudocodigo
+- ✅ Pseudocódigo 1 — executar_instrucoes
+```bash
+Algoritmo ExecutarInstrucoes
+    Entrada: tamanhoMemoria, instrucoes
+
+    // Inicialização da memória
+    Criar vetor MEMORIA de 1 até tamanhoMemoria
+    Para i de 1 até tamanhoMemoria faça
+        MEMORIA[i] ← 0
+    FimPara
+
+    // Processamento das instruções
+    Para cada INSTRUCAO em instrucoes faça
+        TIPO ← INSTRUCAO[0]
+
+        Se TIPO = 1 então                  // FRENTE posicao valor
+            POSICAO ← INSTRUCAO[1]
+            INCREMENTO ← INSTRUCAO[2]
+            i ← POSICAO
+
+            Enquanto (i ≤ tamanhoMemoria) e (INCREMENTO > 0) faça
+                MEMORIA[i] ← MEMORIA[i] + INCREMENTO
+                INCREMENTO ← INCREMENTO - 1
+                i ← i + 1
+            FimEnquanto
+
+        Senão se TIPO = 2 então            // TRÁS posicao valor
+            POSICAO ← INSTRUCAO[1]
+            INCREMENTO ← INSTRUCAO[2]
+            i ← POSICAO
+
+            Enquanto (i ≥ 1) e (INCREMENTO > 0) faça
+                MEMORIA[i] ← MEMORIA[i] + INCREMENTO
+                INCREMENTO ← INCREMENTO - 1
+                i ← i - 1
+            FimEnquanto
+
+        Senão se TIPO = 3 então            // IMPRIME posicao
+            POSICAO ← INSTRUCAO[1]
+            Escrever MEMORIA[POSICAO]
+
+        FimSe
+    FimPara
+FimAlgoritmo
+```
+
+- ✅ Pseudocódigo 2 — Contagem de posições (Português Estruturado)
+```bash
+Algoritmo ContarPosicoes
+    Ler N, T
+
+    Se T = 0 então
+        // Apenas o rei: qualquer uma das N casas
+        RESULTADO ← N
+
+    Senão se T = 1 então
+        // Rei e uma torre: devem ocupar posições diferentes
+        RESULTADO ← N * (N - 1)
+
+    Senão                    // T = 2
+        // Duas torres e o rei entre elas
+        RESULTADO ← (N - 2) * (N - 1) * N / 6
+    FimSe
+
+    Escrever RESULTADO
+FimAlgoritmo
+```
 
 _______________________________________
 ## 📊 Complexity Analysis
@@ -297,15 +363,15 @@ Requirements
 ### Running the program Computer
     
 - In Python
-    ```P
+```bash
     C:/Users/$USER/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$USER/Project-codiname-IC/project-computer/src/main.py
-    ```
+```
 ### Running the program Chess
 
 - In Python
-   ```p
+```bash
     C:\Users\$USER\Project-codiname-IC> & C:/Users/$USER/AppData/Local/Programs/Python/Python314/python.exe c:/Users/$USER/Project-codiname-IC/project-Xadrez/src/main.py
-    ```
+```
 
 _______________________________________
 ## 📥 Input & Output Examples
@@ -313,7 +379,7 @@ _______________________________________
 - Example Computer:
 
 Input:
-```I
+```bash
 tamanhoMemoria = 16
 instrucoes = [
     (1, 4, 8),   # FRENTE 4 8
@@ -326,7 +392,7 @@ instrucoes = [
 ]
 ```
 Output:
-```O
+```bash
 8
 2
 11
@@ -334,11 +400,11 @@ Output:
 - Example Chess:
 
 Input:
-```I
+```bash
 8 #Posição da casa 1#Nº da Peça; Torre
 ```
 Output:
-``` O
+```bash
 56 #Combinações possíveis
 ```
 ________________________________________
@@ -369,32 +435,89 @@ Example:
 ```exp
 ./test/input1.txt
 ```
+### ⚠️ Problems During Development
+
+The most common issue when using Git/GitHub was the merge sequence, which is the process of combining the changes from one branch into another.
+
+- Exemplo:
+```bash
+C:\Users\$USER\Project-codiname-IC> git push To https://github.com/cost-12/Project-codiname-IC.git ! [rejected] main -> main (non-fast-forward) error: failed to push some refs to 'https://github.com/cost-12/Project-codiname-IC.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. If you want to integrate the remote changes, hint: use 'git pull' before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details. PS C:\Users\$USER\Project-codiname-IC> git pull error: You have not concluded your merge (MERGE_HEAD exists). hint: Please, commit your changes before merging. fatal: Exiting because of unfinished merge. PS C:\Users\$USER\Project-codiname-IC>
+```
+    This happens when you're stuck in an unfinished merge state, which prevents you from doing either git pull or git push
+
+- Solution
+
+✅ Passo 1 — Verificar o estado atual
+```bash
+#Execute:
+
+$ git status
+```
+Você deve ver algo como:
+You are in the middle of a merge
+____
+
+✅ Passo 2 — Concluir o merge que está pendente
+
+Se você quer manter suas alterações locais:
+```bash
+# Adicionar e concluir o merge
+$ git add .
+$ git commit -m "Conclui merge pendente"
+```
+This completes the incomplete merge.
+___
+
+✅ Passo 3 — Agora sim, sincronizar com o remoto
+```bash
+# Após concluir o merge:
+
+git pull --rebase
+
+# ou, se preferir sem rebase:
+
+git pull
+
+# Se não vier mais nada, finalize:
+
+git push
+```
+# Opcional:
+
+⭐ Atalho para resolver rápido (se você não tem alterações importantes)
+
+⚠️ Só use se você quiser descartar alterações locais!
+```bash
+git merge --abort
+git reset --hard origin/main
+```
+Isso força seu repositório local a ficar idêntico ao remoto.
 ________________________________________
 ## 📘 Git Workflow
 
 - Clone repository
-```clone
+```bash
 git clone https://github.com/cost-12/Project-codiname-IC.git
 cd Project-codiname-IC
 ```
 
 - Inicicialized repository
-```init
+```bash
 git init
 ```
 
 -  Adicioned informations
-```add
+```bash
 git add .
 ```
 
 - Commit informations
-```commit
+```bash
 git commit -m "version"
 ```
 
 - Upload informations commit
-```push
+```bash
 git push -u origin main (first time)
 ```
 ________________________________________
