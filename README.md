@@ -321,30 +321,30 @@ ________________________________________
 ## 📘 Git Workflow
 
 - Clone repository
-"""clone
+```clone
 git clone https://github.com/cost-12/Project-codiname-IC.git
 cd Project-codiname-IC
-"""
+```
 
 - Inicicialized repository
-"""init
+```init
 git init
-"""
+```
 
 -  Adicioned informations
-"""add
+```add
 git add .
-"""
+```
 
 - Commit informations
-"""commit
+```commit
 git commit -m "version"
-"""
+```
 
 - Upload informations commit
-"""push
-git push -u origin main(first time)
-"""
+```push
+git push -u origin main (first time)
+```
 
 
 - Wrong loop boundaries
@@ -355,11 +355,11 @@ git push -u origin main(first time)
 ________________________________________
 ## 📚 References
 
-- Official OBI website
-
-- Link to the problem (if available)
-
-- Algorithms used (e.g., BFS, Heap Sorting…)
+- Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
+________________________________________
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)                                       | `![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)`                                         |
+________________________________________
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)                  | `![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)`                  |
 ________________________________________
 ## 📄 License
 
