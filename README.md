@@ -321,30 +321,30 @@ ________________________________________
 ## 📘 Git Workflow
 
 - Clone repository
-"""clone
+```clone
 git clone https://github.com/cost-12/Project-codiname-IC.git
 cd Project-codiname-IC
-"""
+```
 
 - Inicicialized repository
-"""init
+```init
 git init
-"""
+```
 
 -  Adicioned informations
-"""add
+```add
 git add .
-"""
+```
 
 - Commit informations
-"""commit
+```commit
 git commit -m "version"
-"""
+```
 
 - Upload informations commit
-"""push
+```push
 git push -u origin main(first time)
-"""
+```
 
 
 - Wrong loop boundaries
