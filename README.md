@@ -257,8 +257,33 @@ _______________________________________
 
 A more detailed section:
 
-- Pseudocode
+- Pseudocodigo
 
+_______________________________________
+## 📊 Complexity Analysis
+
+### Computer logic
+
+The implementation follows a direct simulation approach.
+Each instruction updates memory values position by position, without optimizations.
+
+FRENTE (type 1): runs a decreasing loop from V to 1 → O(V)
+
+TRÁS (type 2): also runs a decreasing loop from V to 1 → O(V)
+
+IMPRIME (type 3): constant-time access → O(1)
+
+Overall Complexity
+
+The total time depends on the sum of all V values:
+
+O( Σ V )
+
+Worst Case
+
+With up to 200,000 instructions and V up to 200,000:
+
+O(200,000 × 200,000)  ≈ 4 × 10¹⁰ operations
 _______________________________________
 ## ▶️ How to Run
 
