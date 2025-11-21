@@ -345,13 +345,6 @@ git commit -m "version"
 ```push
 git push -u origin main (first time)
 ```
-
-
-- Wrong loop boundaries
-
-- Misinterpreting constraints
-
-- Missing edge cases
 ________________________________________
 ## 📚 References
 
@@ -364,5 +357,6 @@ ________________________________________
 ## 📄 License
 
 MIT, GPL, or whatever license you prefer.
+<https://unlicense.org>
 
 [(Back to top)](#table-of-contents)

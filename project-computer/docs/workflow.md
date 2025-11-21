@@ -113,18 +113,20 @@ git push origin nome-da-feature
 
 ## 🔀 6. Abrir um Pull Request
 
-Vá até o GitHub.
-Abra um Pull Request da sua branch → main.
+- Crie uma nova branch com git checkout -b <nome-da-branch> para trabalhar em uma nova funcionalidade ou correção sem afetar a branch principal. 
+
+- Vá até o GitHub.
+    Abra um Pull Request da sua branch → main.
 
 Descreva:
-"""description
+```description
 
 O que foi feito
 
 Por que
 
 Como testar
-"""
+```
 ---
 
 ## 🧪 7. Revisão e aprovação
