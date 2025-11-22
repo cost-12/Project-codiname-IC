@@ -251,7 +251,7 @@ _______________________________________
     - Uso direto de fórmulas combinatórias
 
     - Execução instantânea mesmo para N = 1000
-
+---
 _______________________________________
 ## 📐 Algorithm Explanation
 
