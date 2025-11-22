@@ -369,11 +369,13 @@ Output:
 2
 11
 ```
+---
 - Example Chess:
 
 Input:
 ```bash
-8 #Posição da casa 1#Nº da Peça; Torre
+8 #Posição da casa 
+1 #Nº da Peça; Torre
 ```
 Output:
 ```bash
