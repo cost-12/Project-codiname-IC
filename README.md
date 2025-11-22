@@ -14,15 +14,13 @@ ______________________________________
 
 - [Algorithm Explanation](#-algorithm-explanation)
 
-- [Complexity Analysis](#️-complexity-analysis)
-
 - [How to Run](#️-how-to-run)
 
 - [Input & Output Examples](#-input--output-examples)
 
 - [Project Structure](#-project-structure)
 
-- [Testing](#-testing)
+- [Testing](#-testing-execution-with-git)
 
 - [Git Workflow](#-git-workflow)
 
