@@ -385,15 +385,15 @@ ________________________________________
 - Example structure:
 
 ```repo
-project/
+Project/
  ├── docs/
  │    └── info.rst
  ├── src/
  │    └── main.py
  ├── test/
+ │    └── expected.txt
  │    └── input.txt
  │    └── output.txt
- │    └── expected.txt
  ├── README.md
  └── LICENSE
 ```

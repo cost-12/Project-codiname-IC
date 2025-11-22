@@ -47,8 +47,8 @@ jobs:
     - name: Run Chess project
       run: |
         python Project-Xadrez/src/main.py <<EOF
-8 2
-EOF
+        8 2
+        EOF
 
     # 8) Finalização
     - name: Complete
