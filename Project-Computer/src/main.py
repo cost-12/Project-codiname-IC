@@ -1,6 +1,6 @@
-def executar_instrucoes(tamanhoMemoria, instrucoes):
+def executar_instrucoes(tamanho_Memoria, instrucoes):
     # Inicializa a memória com zeros
-    memoria = [0] * (tamanhoMemoria + 1)  # índice de 1 a N
+    memoria = [0] * (tamanho_Memoria + 1)  # índice de 1 a N
 
     for instrucao in instrucoes:
         tipo = instrucao[0]
@@ -9,7 +9,7 @@ def executar_instrucoes(tamanhoMemoria, instrucoes):
             posicao, valor = instrucao[1], instrucao[2]
             incremento = valor
             i = posicao
-            while i <= tamanhoMemoria and incremento > 0:
+            while i <= tamanho_Memoria and incremento > 0:
                 memoria[i] += incremento
                 incremento -= 1
                 i += 1
@@ -30,7 +30,7 @@ def executar_instrucoes(tamanhoMemoria, instrucoes):
 
 # -------------------------------
 # Exemplo de uso:
-tamanhoMemoria = 16
+tamanho_Memoria = 16
 instrucoes = [
     (1, 4, 8),   # FRENTE 4 8
     (2, 16, 3),  # TRÁS 16 3
@@ -41,4 +41,4 @@ instrucoes = [
     (3, 1)       # IMPRIME 1
 ]
 
-executar_instrucoes(tamanhoMemoria, instrucoes)
+executar_instrucoes(tamanho_Memoria, instrucoes)
