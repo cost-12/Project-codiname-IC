@@ -31,6 +31,7 @@
  - Mostra o número final calculado na tela.
 - Uma seção mais detalhada:
 
+Explicação em Português estruturado;
 - Pseudocódigo:
   
 - algoritmo "xadrez_variantes"
@@ -56,3 +57,11 @@ inicio
     escreva(resultado)
 
 fimalgoritmo
+
+"""
+# executar instruções ler e calcular as possibilidades das torres e do rei no tabuleiro de xadrez.
+tipo de instrução;
+algoritmo Xadrez
+    leia(indicador de posição, numeros de torres)
+    calcular_combinacoes(indicador de posição, numeros de torres) -> resultado 
+"""

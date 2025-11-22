@@ -1,3 +1,1 @@
-PS C:\Users\paulo\Project-codiname-IC> & C:/Users/paulo/AppData/Local/Programs/Python/Python314/python.exe c:/Users/paulo/Project-codiname-IC/project-Xadrez/src/main.py
 56
-56#saída; numeros de combinações possíveis

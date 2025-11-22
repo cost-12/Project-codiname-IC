@@ -1,7 +1,2 @@
 # exemplo de uso:
-5(indicador de posição) 2(numeros de torres)
-10(valor de combinações porsiveis)
-
-# exemplo dois:
-8(indicador de posição) 1(numeros de torres)
-56(combinações possíveis)
+8 1
