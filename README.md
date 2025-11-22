@@ -501,6 +501,8 @@ ________________________________________
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Atlassian](<img width="156" height="20" alt="image" src="https://github.com/user-attachments/assets/2db06051-1aed-4c7b-afe0-c046c702cbea" />
+)
 ________________________________________
 ## 📄 License
 
