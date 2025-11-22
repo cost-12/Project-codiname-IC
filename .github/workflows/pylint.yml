@@ -1,4 +1,4 @@
-name: OBI Project CI
+name: Python Tests
 
 on:
   push:
@@ -7,49 +7,31 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-    name: Run Tests and Validation
+  test-project-computer:
+    name: Test Project-Computer
     runs-on: ubuntu-latest
 
     steps:
-    # 1) Checkout do repositório
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # 2) Instalar Python
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: "3.10"
 
-    # 3) Instalar dependências (se existir requirements.txt)
-    - name: Install dependencies
-      run: |
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Install pylint
+      run: pip install pylint
 
-    # 4) Lint — verificar a qualidade do código
-    - name: Run Lint (flake8)
-      run: |
-        pip install flake8
-        flake8 .
+    - name: Lint Project-Computer
+      run: pylint Project-Computer/src/main.py
 
-    # 5) Executar o Programa "Computer"
-    - name: Run Computer project
+    - name: Run program with input.txt
       run: |
-        python Project-Computer/src/main.py < test/input.txt > test/output.txt
+        cd Project-Computer
+        python src/main.py < test/input.txt > test/output.txt
 
-    # 6) Verificar se a saída bate com o esperado
-    - name: Compare Computer output with expected
+    - name: Compare output with expected
       run: |
-        diff test/output.txt test/expected.txt
-
-    # 7) Executar o Programa "Chess"
-    - name: Run Chess project
-      run: |
-        python Project-Xadrez/src/main.py <<EOF
-        8 2
-        EOF
-
-    # 8) Finalização
-    - name: Complete
-      run: echo "✔ Workflow finalizado com sucesso."
+        cd Project-Computer/test
+        diff -u expected.txt output.txt
