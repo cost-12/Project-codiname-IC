@@ -401,7 +401,7 @@ project/
 ```
 
 ________________________________________
-## 🧪 Testing
+## 🧪 Testing Execution with Git
 
 Explain how to test the solution manually or automatically.
 
