@@ -496,8 +496,8 @@ git push -u origin main (first time)
 ```
 ________________________________________
 ## 📚 References
-Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
-Using collaborative git [Atlassiam](https://www.atlassian.com/git)
+- Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
+- Using collaborative git [Atlassiam](https://www.atlassian.com/git)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
