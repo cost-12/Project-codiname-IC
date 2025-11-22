@@ -1,4 +1,4 @@
-# Corrigir o problema de nome de pastas não serem identificadas no Windows.
+# Como corrigir o problema de nome de pastas não serem identificadas no Windows???
 
 ✅ 1. Liste o nome exato das pastas que o Git está versionando
 
