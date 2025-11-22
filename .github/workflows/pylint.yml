@@ -35,4 +35,4 @@ jobs:
     - name: Compare output with expected
       run: |
         cd Project-Computer/test
-        diff -u expected.txt output.txt
+        diff -uZ expected.txt output.txt
