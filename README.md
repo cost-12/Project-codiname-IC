@@ -496,12 +496,13 @@ git push -u origin main (first time)
 ```
 ________________________________________
 ## 📚 References
-[OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
+Official [OBI](https://olimpiada.ic.unicamp.br/pratique/pu/) website
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <img width="156" height="20" alt="image" src="https://github.com/user-attachments/assets/2db06051-1aed-4c7b-afe0-c046c702cbea"/>
+---
 ________________________________________
 ## 📄 License
 
