@@ -1,6 +1,4 @@
-# Exemplo;
-
-PS C:\Users\f1aud\Project-codiname-IC> & C:/Users/f1aud/AppData/Local/Programs/Python/Python314/python.exe c:/Users/f1aud/Project-codiname-IC/project-computer/src/main.py
+Project-Computer/test/expected.txt
 8
 2
 11
