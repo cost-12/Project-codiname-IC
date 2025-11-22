@@ -1,4 +1,3 @@
-Project-Computer/test/expected.txt
 8
 2
 11
