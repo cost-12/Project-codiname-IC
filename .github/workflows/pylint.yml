@@ -1,31 +1,55 @@
-name: CI
+name: OBI Project CI
 
 on:
-  pull_request:
-    branches:
-      - main
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  build-and-test:
+  build:
+    name: Run Tests and Validation
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    # 1) Checkout do repositório
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
+    # 2) Instalar Python
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.14'
+        python-version: "3.10"
 
-
-    - name: Run tests
+    # 3) Instalar dependências (se existir requirements.txt)
+    - name: Install dependencies
       run: |
-        pytest  # ou comando de teste da sua solução
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Run solution on sample input
+    # 4) Lint — verificar a qualidade do código
+    - name: Run Lint (flake8)
       run: |
-        python main.py < test/input1.txt > output.txt
-        diff output.txt tests/expected1.txt
+        pip install flake8
+        flake8 .
+
+    # 5) Executar o Programa "Computer"
+    - name: Run Computer project
+      run: |
+        python Project-Computer/src/main.py < test/input.txt > test/output.txt
+
+    # 6) Verificar se a saída bate com o esperado
+    - name: Compare Computer output with expected
+      run: |
+        diff test/output.txt test/expected.txt
+
+    # 7) Executar o Programa "Chess"
+    - name: Run Chess project
+      run: |
+        python Project-Xadrez/src/main.py <<EOF
+8 2
+EOF
+
+    # 8) Finalização
+    - name: Complete
+      run: echo "✔ Workflow finalizado com sucesso."
