@@ -78,17 +78,17 @@ Below is an example execution sequence:
 
 ```
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 FRENTE 4 8
-
 0 0 0 8 7 6 5 4 3 2 1 0 0 0 0 0
+
 TRÁS 16 3
-
 0 0 0 8 7 6 5 4 3 2 1 0 0 1 2 3
+
 TRÁS 2 12
-
 11 12 0 8 7 6 5 4 3 2 1 0 0 1 2 3
-FRENTE 8 7
 
+FRENTE 8 7
 11 12 0 8 7 6 5 11 9 7 5 3 2 2 2 3
 ```
 
