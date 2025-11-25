@@ -157,7 +157,13 @@ git branch -d nome-da-feature
 
 - Crie uma nova feature → programe → commit → push → PR → merge.
 ---
+## ✨ 10. Extra
 
+- Habilite a sensibilidade a maiúsculas/minúsculas:
+````bash
+git config core.ignorecase false
+````
+---
 # Badges
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
